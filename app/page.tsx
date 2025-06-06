@@ -175,7 +175,7 @@ export default function WorkNowLanding() {
               Un sistema inteligente que hace el trabajo pesado por vos
             </h2>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-              Desde que llega el primer CV hasta tu shortlist validada, vos solo elegís a quién entrevistar
+              Desde que llega el primer CV hasta que tenés a los mejores listos para entrevistar, vos solo decidís a quién contratar.
             </p>
           </div>
 
@@ -229,7 +229,7 @@ export default function WorkNowLanding() {
               <div className="lg:w-[55%] text-left">
                 <h3 className="text-2xl font-bold text-white mb-2">3. Validaciones listas para contactar</h3>
                 <p className="text-lg text-gray-200">
-                  Se verifica disponibilidad y actitud. Solo te mostramos quienes realmente están listos para trabajar.
+                  Se verifican disponibilidad, referencias, ubicaciones y mucho mas. Solo te mostramos quienes realmente están listos para trabajar.
                 </p>
               </div>
 
@@ -492,9 +492,9 @@ Si estás activo en una búsqueda, tenés prioridad y soporte dedicado para reso
       {/* Footer CTA */}
       <section className="py-16 lg:py-24 bg-[#FF6B00]">
         <div className="container mx-auto px-4 lg:px-6 text-center">
-          <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">¿Listo para contratar sin perder tiempo?</h2>
+          <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">Sabemos lo difícil que es encontrar buen personal.</h2>
           <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-            Únete a cientos de empresarios que ya están contratando más rápido y mejor con Work Now
+          Por eso creamos Work Now: para que no pierdas más tiempo y puedas enfocarte en tu negocio.
           </p>
           <Button
   size="lg"
