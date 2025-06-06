@@ -13,7 +13,7 @@ export default function TimeCalculator() {
     {
       label: "Filtrado de CVs",
       sin: (cvCount * 3) / 60, // 3 minutos por CV
-      con: (cvCount * 0.2) / 60, // 12 segundos por CV
+      con: (cvCount * 0) / 60, // 12 segundos por CV
     },
     {
       label: "Coordinación de entrevistas",
