@@ -70,8 +70,9 @@ export default function WorkNowLanding() {
     target="_blank"
     rel="noopener noreferrer"
   >
+    </a>
     Probar ahora
-  </a>
+  
 </Button>
               <img
   src="/hero.png"
