@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
@@ -5,6 +6,8 @@ import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Clock, Eye, FileText, Frown, Mail, Filter, UserCheck, BarChart3 } from "lucide-react"
 import Link from "next/link"
 import TimeCalculator from "@/components/time-calculator"
+
+
 
 export default function WorkNowLanding() {
   return (
@@ -34,15 +37,19 @@ export default function WorkNowLanding() {
             </Link>
           </nav>
 
-          <Button className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-6 shadow-lg">
-            Quiero acceso anticipado
-            <a
+          <Button
+  asChild
+  className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-6 shadow-lg"
+>
+  <a
     href="https://tally.so/r/nPW5d1"
     target="_blank"
     rel="noopener noreferrer"
   >
-    </a>
-          </Button>
+    Quiero acceso anticipado
+  </a>
+</Button>
+
         </div>
       </header>
 
@@ -65,7 +72,6 @@ export default function WorkNowLanding() {
                 Dejá de perder tiempo con CVs que no sirven y entrevistas que no llevan a nada. Te conectamos
                 directamente con candidatos listos para trabajar.
               </p>
-
               <Button
   size="lg"
   asChild
@@ -76,9 +82,8 @@ export default function WorkNowLanding() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    </a>
     Probar ahora
-  
+  </a>
 </Button>
               <img
   src="/hero.png"
@@ -267,17 +272,18 @@ export default function WorkNowLanding() {
 
           <div className="text-center mt-12">
             <Button
-              size="lg"
-              className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
-            >
-              <a
+  size="lg"
+  asChild
+  className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
+>
+  <a
     href="https://tally.so/r/nPW5d1"
     target="_blank"
     rel="noopener noreferrer"
   >
-    </a>
-              Empezar ahora
-            </Button>
+    Empezar ahora
+  </a>
+</Button>
           </div>
         </div>
       </section>
@@ -327,15 +333,18 @@ export default function WorkNowLanding() {
                     <span className="text-gray-700">Soporte personalizado</span>
                   </li>
                 </ul>
-                <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white rounded-xl py-3">
-                  <a
+               <Button
+  asChild
+  className="w-full bg-gray-900 hover:bg-gray-800 text-white rounded-xl py-3"
+>
+  <a
     href="https://tally.so/r/nPW5d1"
     target="_blank"
     rel="noopener noreferrer"
   >
-    </a>
-                  Empezar ahora
-                </Button>
+    Empezar ahora
+  </a>
+</Button>
               </CardContent>
             </Card>
 
@@ -374,15 +383,18 @@ export default function WorkNowLanding() {
                     <span className="text-gray-700">Acceso a pool exclusivo de candidatos</span>
                   </li>
                 </ul>
-                <Button className="w-full bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl py-3">
-                  <a
+               <Button
+  asChild
+  className="w-full bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl py-3"
+>
+  <a
     href="https://tally.so/r/nPW5d1"
     target="_blank"
     rel="noopener noreferrer"
   >
-    </a>
-                  Aprovechar 50% OFF
-                </Button>
+    Aprovechar 50% OFF
+  </a>
+</Button>
               </CardContent>
             </Card>
           </div>
@@ -485,17 +497,19 @@ Si estás activo en una búsqueda, tenés prioridad y soporte dedicado para reso
             Únete a cientos de empresarios que ya están contratando más rápido y mejor con Work Now
           </p>
           <Button
-            size="lg"
-            className="bg-white text-[#FF6B00] hover:bg-gray-100 rounded-xl px-8 py-4 text-lg font-semibold shadow-lg"
-          >
-            <a
+  size="lg"
+  asChild
+  className="bg-white text-[#FF6B00] hover:bg-gray-100 rounded-xl px-8 py-4 text-lg font-semibold shadow-lg"
+>
+  <a
     href="https://tally.so/r/nPW5d1"
     target="_blank"
     rel="noopener noreferrer"
   >
-    </a>
-            Comenzar ya mismo
-          </Button>
+    Comenzar ya mismo
+  </a>
+</Button>
+
         </div>
       </section>
 
