@@ -67,7 +67,7 @@ export default function WorkNowLanding() {
                 Probar ahora
               </Button>
               <img
-  src="/hero-preview2.png"
+  src="/hero.png"
   alt="Vista previa de la plataforma"
   className="mx-auto mt-12 w-full max-w-4xl rounded-xl shadow-lg"
 />
