@@ -59,7 +59,7 @@ export default function WorkNowLanding() {
           <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-8">
             <div className="space-y-8 text-center items-center flex flex-col">
               <p className="text-grey-00 font-medium text-lg">
-                ¿Contratar en sectores de alta rotación se volvió un dolor de cabeza?
+                ¿Contratar en gastronomía se volvió un dolor de cabeza?
               </p>
 
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -101,10 +101,10 @@ export default function WorkNowLanding() {
         <div className="container mx-auto px-4 lg:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-              No es que falte gente. Es que cada contratación te quita tiempo y energía
+              No es que falte gente, es que cada contratación te quita tiempo y energía.
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Los dueños de negocios como el tuyo enfrentan estos problemas constantemente
+              A que a vos también te pasó que...
             </p>
           </div>
 
