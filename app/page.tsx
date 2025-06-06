@@ -101,17 +101,20 @@ export default function WorkNowLanding() {
               </CardContent>
             </Card>
 
-            <Card className="p-6 border-0 shadow-lg">
-              <CardContent className="flex items-start space-x-4 p-0">
-                <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-6 h-6 text-yellow-600" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Coordinás 5 entrevistas… y 
-                    aparece 1</h3>
-                </div>
-              </CardContent>
-            </Card>
+           <Card className="p-6 border-0 shadow-lg">
+  <CardContent className="flex items-start space-x-4 p-0">
+    <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0">
+      <Clock className="w-6 h-6 text-yellow-600" />
+    </div>
+    <div>
+      <h3 className="text-xl font-bold text-gray-900 mb-2">
+        Coordinás 5 entrevistas…<br />
+        y aparece 1 solo
+      </h3>
+    </div>
+  </CardContent>
+</Card>
+
 
             <Card className="p-6 border-0 shadow-lg">
               <CardContent className="flex items-start space-x-4 p-0">
