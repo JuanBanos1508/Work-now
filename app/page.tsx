@@ -96,7 +96,7 @@ export default function WorkNowLanding() {
                   <FileText className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Recibís 50 CVs y el 90% no cumple</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Recibís 50 CVs y el 90% no cumple con los requisitos</h3>
                 </div>
               </CardContent>
             </Card>
@@ -107,7 +107,8 @@ export default function WorkNowLanding() {
                   <Clock className="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Coordinás 5 entrevistas… y aparece 1</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Coordinás 5 entrevistas… y 
+                    aparece 1</h3>
                 </div>
               </CardContent>
             </Card>
