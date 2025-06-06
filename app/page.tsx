@@ -64,6 +64,7 @@ export default function WorkNowLanding() {
                 size="lg"
                 className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
               >
+                 href="https://tally.so/r/nPW5d1"
                 Probar ahora
               </Button>
               <img
