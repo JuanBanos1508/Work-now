@@ -36,6 +36,12 @@ export default function WorkNowLanding() {
 
           <Button className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-6 shadow-lg">
             Quiero acceso anticipado
+            <a
+    href="https://tally.so/r/nPW5d1"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    </a>
           </Button>
         </div>
       </header>
@@ -264,6 +270,12 @@ export default function WorkNowLanding() {
               size="lg"
               className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
             >
+              <a
+    href="https://tally.so/r/nPW5d1"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    </a>
               Empezar ahora
             </Button>
           </div>
@@ -316,6 +328,12 @@ export default function WorkNowLanding() {
                   </li>
                 </ul>
                 <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white rounded-xl py-3">
+                  <a
+    href="https://tally.so/r/nPW5d1"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    </a>
                   Empezar ahora
                 </Button>
               </CardContent>
@@ -357,6 +375,12 @@ export default function WorkNowLanding() {
                   </li>
                 </ul>
                 <Button className="w-full bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl py-3">
+                  <a
+    href="https://tally.so/r/nPW5d1"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    </a>
                   Aprovechar 50% OFF
                 </Button>
               </CardContent>
@@ -464,7 +488,13 @@ Si estás activo en una búsqueda, tenés prioridad y soporte dedicado para reso
             size="lg"
             className="bg-white text-[#FF6B00] hover:bg-gray-100 rounded-xl px-8 py-4 text-lg font-semibold shadow-lg"
           >
-            Comenzar prueba gratuita
+            <a
+    href="https://tally.so/r/nPW5d1"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    </a>
+            Comenzar ya mismo
           </Button>
         </div>
       </section>
