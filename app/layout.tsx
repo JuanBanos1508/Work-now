@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'Work Now',
   description: 'Created with v0',
   generator: 'v0.dev',
 }
