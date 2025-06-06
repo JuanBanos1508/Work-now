@@ -8,24 +8,22 @@ import { Clock, CheckCircle } from "lucide-react";
 export default function TimeCalculator() {
   const [cvCount, setCvCount] = useState(80);
 
-  // Etapas ajustadas por cantidad de CVs
   const stages = [
     {
       label: "Filtrado de CVs",
-      sin: (cvCount * 3) / 60, // 3 minutos por CV
-      con: (cvCount * 0) / 60, // 12 segundos por CV
+      sin: (cvCount * 3) / 60,
+      con: (cvCount * 0) / 60,
     },
     {
       label: "Coordinación de entrevistas",
       sin: 2.5,
       con: 0.3,
     },
-   {
-  label: "Entrevistas a los candidatos",
-  sin: 3.5,
-  con: 2.5,
-},
-
+    {
+      label: "Entrevistas a los candidatos",
+      sin: 3.5,
+      con: 2.5,
+    },
   ];
 
   const totalSin = stages.reduce((acc, s) => acc + s.sin, 0);
@@ -124,8 +122,8 @@ export default function TimeCalculator() {
               <thead>
                 <tr className="bg-gray-50">
                   <th className="p-4 text-left text-gray-600 font-medium">Actividad</th>
-                  <th className="p-4 text-center text-gray-600 font-medium">Sin Work Now</th>
-                  <th className="p-4 text-center text-gray-600 font-medium">Con Work Now</th>
+                  <th className="p-4 text-center text-red-600 font-medium">Sin Work Now</th>
+                  <th className="p-4 text-center text-green-600 font-medium">Con Work Now</th>
                   <th className="p-4 text-center text-gray-600 font-medium">Ahorro</th>
                 </tr>
               </thead>
@@ -133,8 +131,8 @@ export default function TimeCalculator() {
                 {stages.map((s, i) => (
                   <tr key={i} className="border-b border-gray-200">
                     <td className="p-4 text-gray-900">{s.label}</td>
-                    <td className="p-4 text-center text-gray-700">{s.sin.toFixed(1)} horas</td>
-                    <td className="p-4 text-center text-gray-700">{s.con.toFixed(1)} horas</td>
+                    <td className="p-4 text-center text-red-600 font-medium">{s.sin.toFixed(1)} horas</td>
+                    <td className="p-4 text-center text-green-600 font-medium">{s.con.toFixed(1)} horas</td>
                     <td className="p-4 text-center text-green-600 font-medium">
                       {(s.sin - s.con).toFixed(1)} horas
                     </td>
@@ -142,8 +140,8 @@ export default function TimeCalculator() {
                 ))}
                 <tr className="bg-gray-50 font-medium">
                   <td className="p-4 text-gray-900">Total</td>
-                  <td className="p-4 text-center text-gray-900">{totalSin.toFixed(1)} horas</td>
-                  <td className="p-4 text-center text-gray-900">{totalCon.toFixed(1)} horas</td>
+                  <td className="p-4 text-center text-red-600">{totalSin.toFixed(1)} horas</td>
+                  <td className="p-4 text-center text-green-600">{totalCon.toFixed(1)} horas</td>
                   <td className="p-4 text-center text-green-700 font-bold">
                     {ahorro.toFixed(1)} horas ({porcentaje}%)
                   </td>
