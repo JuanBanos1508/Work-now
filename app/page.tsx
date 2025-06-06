@@ -145,108 +145,107 @@ export default function WorkNowLanding() {
       </section>
 
       {/* How It Works */}
-      <section id="how-it-works" className="py-16 lg:py-24 bg-gray-50">
+      <section id="how-it-works" className="py-16 lg:py-24 bg-[#4A5568]">
         <div className="container mx-auto px-4 lg:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
               Un sistema inteligente que hace el trabajo pesado por vos
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-200 max-w-3xl mx-auto">
               Desde que llega el primer CV hasta tu shortlist validada, vos solo elegís a quién entrevistar
             </p>
           </div>
 
           <div className="space-y-16">
-  {/* Paso 1 */}
-  <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-4">
-  <div className="lg:w-[55%]">
-    <h3 className="text-2xl font-bold text-gray-900 mb-2">1. Conectá tu correo</h3>
-    <p className="text-lg text-gray-600">Cargá lo que necesitás y olvidate de los pasos manuales.</p>
-  </div>
-  <video
-    src="/pantalla-solucion1.mp4"
-    autoPlay
-    muted
-    loop
-    playsInline
-    className="rounded-xl lg:w-[45%] w-full shadow-lg"
-  >
-    Tu navegador no soporta video HTML5.
-  </video>
-</div>
+            {/* Paso 1 */}
+            <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-4">
+              <div className="lg:w-[55%]">
+                <h3 className="text-2xl font-bold text-white mb-2">1. Conectá tu correo</h3>
+                <p className="text-lg text-gray-200">Cargá lo que necesitás y olvidate de los pasos manuales.</p>
+              </div>
+              <video
+                src="/pantalla-solucion1.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="rounded-xl lg:w-[45%] w-full shadow-lg"
+              >
+                Tu navegador no soporta video HTML5.
+              </video>
+            </div>
 
-  {/* Paso 2 */}
-<div className="flex flex-col items-center gap-6 mt-16">
-  {/* Texto arriba */}
-  <div className="w-full text-left lg:w-[80%]">
-    <h3 className="text-2xl font-bold text-gray-900 mb-2">2. Candidatos filtrados</h3>
-    <p className="text-lg text-gray-600">
-      Solo recibís quienes cumplen con tu búsqueda, listos para contactar.
-    </p>
-  </div>
+            {/* Paso 2 */}
+            <div className="flex flex-col lg:flex-row-reverse  items-center gap-4 lg:gap-12 mt-16">
 
-  {/* Video abajo */}
-  <video
-    src="/pantalla-solucion2.mp4"
-    autoPlay
-    muted
-    playsInline
-    loop
-    className="rounded-xl w-full lg:w-[80%] shadow-lg"
-  >
-    Tu navegador no soporta video HTML5.
-  </video>
-</div>
+              
+              {/* Texto a la derecha */}
+              <div className="lg:w-[55%] text-left">
+                <h3 className="text-2xl font-bold text-white mb-2">2. Candidatos filtrados</h3>
+                <p className="text-lg text-gray-200">
+                  Solo recibís quienes cumplen con tu búsqueda, listos para contactar.
+                </p>
+              </div>
+                 {/* Video a la izquierda en pantallas grandes */}
+              <video
+                src="/pantalla-solucion2.mp4"
+                autoPlay
+                muted
+                playsInline
+                loop
+                className="rounded-xl lg:w-[45%] w-full shadow-lg"
+              >
+                Tu navegador no soporta video HTML5.
+              </video>
 
+            </div>
 
+            {/* Paso 3 */}
+            <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
+              {/* Texto a la izquierda */}
+              <div className="lg:w-[55%] text-left">
+                <h3 className="text-2xl font-bold text-white mb-2">3. Validaciones listas para contactar</h3>
+                <p className="text-lg text-gray-200">
+                  Se verifica disponibilidad y actitud. Solo te mostramos quienes realmente están listos para trabajar.
+                </p>
+              </div>
 
-  {/* Paso 3 */}
- <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
-  {/* Texto a la izquierda */}
-  <div className="lg:w-[55%] text-left">
-    <h3 className="text-2xl font-bold text-gray-900 mb-2">3. Validaciones listas para contactar</h3>
-    <p className="text-lg text-gray-600">
-      Se verifica disponibilidad y actitud. Solo te mostramos quienes realmente están listos para trabajar.
-    </p>
-  </div>
+              {/* Video a la derecha */}
+              <video
+                src="/pantalla-solucion3.mp4"
+                autoPlay
+                muted
+                playsInline
+                loop
+                className="rounded-xl lg:w-[45%] w-full shadow-lg"
+              >
+                Tu navegador no soporta video HTML5.
+              </video>
+            </div>
 
-  {/* Video a la derecha */}
-  <video
-    src="/pantalla-solucion3.mp4"
-    autoPlay
-    muted
-    playsInline
-    loop
-    className="rounded-xl lg:w-[45%] w-full shadow-lg"
-  >
-    Tu navegador no soporta video HTML5.
-  </video>
-</div>
+            {/* Paso 4 */}
+            <div className="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-12 mt-16">
+              {/* Texto a la derecha */}
+              <div className="lg:w-[55%] text-left">
+                <h3 className="text-2xl font-bold text-white mb-2">4. Seguimiento automatizado</h3>
+                <p className="text-lg text-gray-200">
+                  El sistema notifica, agenda y automatiza todo tu proceso sin que tengas que intervenir.
+                </p>
+              </div>
 
-
-  {/* Paso 4 */}
-  <div className="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-12 mt-16">
-  {/* Texto a la derecha */}
-  <div className="lg:w-[55%] text-left">
-    <h3 className="text-2xl font-bold text-gray-900 mb-2">4. Seguimiento automatizado</h3>
-    <p className="text-lg text-gray-600">
-      El sistema notifica, agenda y automatiza todo tu proceso sin que tengas que intervenir.
-    </p>
-  </div>
-
-  {/* Video a la izquierda */}
-  <video
-    src="/pantalla-solucion4.mp4"
-    autoPlay
-    muted
-    playsInline
-    loop
-    className="rounded-xl lg:w-[45%] w-full shadow-lg"
-  >
-    Tu navegador no soporta video HTML5.
-  </video>
-</div>
-</div>
+              {/* Video a la izquierda */}
+              <video
+                src="/pantalla-solucion4.mp4"
+                autoPlay
+                muted
+                playsInline
+                loop
+                className="rounded-xl lg:w-[45%] w-full shadow-lg"
+              >
+                Tu navegador no soporta video HTML5.
+              </video>
+            </div>
+          </div>
 
           <div className="text-center mt-12">
             <Button
