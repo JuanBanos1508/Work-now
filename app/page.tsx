@@ -86,7 +86,7 @@ export default function WorkNowLanding() {
   </a>
 </Button>
               <img
-  src="/hero.png"
+  src="/hero2.png"
   alt="Vista previa de la plataforma"
   className="mx-auto mt-12 w-full max-w-4xl rounded-xl shadow-lg"
 />
