@@ -50,7 +50,7 @@ export default function WorkNowLanding() {
               </p>
 
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                <span className="text-blue-600">Encontrá el candidato ideal en</span>
+                <span className="text-blue-600">Encontrá al candidato ideal en</span>
                 <span className="mx-2 text-orange-500 line-through">semanas</span>
                 <span className="text-blue-600">minutos</span>
               </h1>
@@ -457,14 +457,85 @@ Si estás activo en una búsqueda, tenés prioridad y soporte dedicado para reso
         </div>
       </section>
 
-      {/* Footer */}
+     {/* Footer */}
       <footer className="py-12 bg-gray-900">
         <div className="container mx-auto px-4 lg:px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-2xl font-bold text-white mb-4 md:mb-0">
-              Work<span className="text-[#FF6B00]">Now</span>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div>
+              <div className="text-2xl font-bold text-white mb-4">
+                Work<span className="text-[#FF6B00]">Now</span>
+              </div>
+              <p className="text-gray-400">Simplificando la contratación para negocios de alta rotación.</p>
             </div>
-            <div className="text-gray-400 text-sm">© 2024 Work Now. Todos los derechos reservados.</div>
+
+            <div>
+              <h3 className="text-white font-semibold mb-4">Producto</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                    Características
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#pricing" className="text-gray-400 hover:text-white transition-colors">
+                    Precios
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                    Casos de éxito
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-white font-semibold mb-4">Recursos</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                    Guías
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#faq" className="text-gray-400 hover:text-white transition-colors">
+                    FAQ
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-white font-semibold mb-4">Contacto</h3>
+              <ul className="space-y-2">
+                <li className="flex items-center space-x-2">
+                  <Mail className="w-4 h-4 text-gray-400" />
+                  <a href="mailto:info@worknow.com" className="text-gray-400 hover:text-white transition-colors">
+                    info@worknow.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <div className="text-gray-400 text-sm mb-4 md:mb-0">© 2024 Work Now. Todos los derechos reservados.</div>
+            <div className="flex space-x-6">
+              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                Términos
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                Privacidad
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                Cookies
+              </Link>
+            </div>
           </div>
         </div>
       </footer>
