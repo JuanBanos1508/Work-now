@@ -176,26 +176,26 @@ export default function WorkNowLanding() {
 </div>
 
   {/* Paso 2 */}
-  <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
-  {/* Video a la izquierda en pantallas grandes */}
+<div className="flex flex-col items-center gap-6 mt-16">
+  {/* Texto arriba */}
+  <div className="w-full text-left lg:w-[80%]">
+    <h3 className="text-2xl font-bold text-gray-900 mb-2">2. Candidatos filtrados</h3>
+    <p className="text-lg text-gray-600">
+      Solo recibís quienes cumplen con tu búsqueda, listos para contactar.
+    </p>
+  </div>
+
+  {/* Video abajo */}
   <video
     src="/pantalla-solucion2.mp4"
     autoPlay
     muted
     playsInline
     loop
-    className="rounded-xl lg:w-[45%] w-full shadow-lg"
+    className="rounded-xl w-full lg:w-[80%] shadow-lg"
   >
     Tu navegador no soporta video HTML5.
   </video>
-
-  {/* Texto a la derecha */}
-  <div className="lg:w-[55%] text-left">
-    <h3 className="text-2xl font-bold text-gray-900 mb-2">2. Candidatos filtrados</h3>
-    <p className="text-lg text-gray-600">
-      Solo recibís quienes cumplen con tu búsqueda, listos para contactar.
-    </p>
-  </div>
 </div>
 
 
