@@ -339,9 +339,9 @@ export default function WorkNowLanding() {
                     <span className="text-gray-700">Soporte personalizado</span>
                   </li>
                 </ul>
-               <Button
+              <Button
   asChild
-  className="w-full bg-gray-900 hover:bg-gray-800 text-white rounded-xl py-3"
+  className="w-full bg-white hover:bg-gray-100 text-blue-600 font-semibold rounded-xl py-3 shadow-md"
 >
   <a
     href="https://tally.so/r/nPW5d1"
