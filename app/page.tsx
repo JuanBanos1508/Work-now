@@ -86,16 +86,16 @@ export default function WorkNowLanding() {
   </a>
 </Button>
               
-   <video
-                src="/hero-preview.mp4"
-                autoPlay
-                muted
-                loop
-                playsInline
-                 className="mx-auto mt-12 wc-full max-w-4xl rounded-xl shadow-lg"
-              >
-                Tu navegador no soporta video HTML5.
-              </video>
+  <video
+  src="/hero-preview.mp4"
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl mx-auto mt-12 rounded-xl shadow-lg"
+>
+  Tu navegador no soporta video HTML5.
+</video>
 
             </div>
           </div>
