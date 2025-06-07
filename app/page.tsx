@@ -341,7 +341,7 @@ export default function WorkNowLanding() {
                 </ul>
               <Button
   asChild
-  className="w-full bg-white hover:bg-gray-100 text-blue-600 font-semibold rounded-xl py-3 shadow-md"
+  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl py-3 shadow-md"
 >
   <a
     href="https://tally.so/r/nPW5d1"
