@@ -85,11 +85,17 @@ export default function WorkNowLanding() {
     Probar ahora
   </a>
 </Button>
-              <img
-  src="/hero3.png"
-  alt="Vista previa de la plataforma"
-  className="mx-auto mt-12 w-full max-w-4xl rounded-xl shadow-lg"
-/>
+              
+   <video
+                src="/hero-preview.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                 className="mx-auto mt-12 wc-full max-w-4xl rounded-xl shadow-lg"
+              >
+                Tu navegador no soporta video HTML5.
+              </video>
 
             </div>
           </div>
@@ -104,7 +110,7 @@ export default function WorkNowLanding() {
               No es que falte gente, es que cada contratación te quita tiempo y energía.
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A que a vos también te pasó que...
+              Seguramente, a vos también te pasó que...
             </p>
           </div>
 
@@ -418,7 +424,7 @@ export default function WorkNowLanding() {
                 <AccordionContent className="px-6 pb-4 text-gray-600">
                   Work Now se conecta a tu correo y filtra automáticamente los CVs que recibís.
 Solo necesitás definir qué estás buscando (por ejemplo: zona, edad, experiencia) y nosotros analizamos cada currículum por vos.
-Te entregamos una shortlist con los mejores perfiles filtrados según tus criterios, listos para entrevistar.
+Te entregamos una lista con los mejores perfiles filtrados según tus criterios, listos para entrevistar.
 Vos decidís con quién avanzar. Sin revisar uno por uno. Sin perder tiempo.
                 </AccordionContent>
               </AccordionItem>
