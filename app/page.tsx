@@ -276,7 +276,7 @@ export default function WorkNowLanding() {
             </div>
 
             {/* Paso 5 */}
-            <div className="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-12 mt-16">
+            <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
               {/* Texto a la derecha */}
               <div className="lg:w-[55%] text-left">
                 <h3 className="text-2xl font-bold text-white mb-2">5. Gestión de personal</h3>
