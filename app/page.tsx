@@ -178,7 +178,7 @@ export default function WorkNowLanding() {
         <div className="container mx-auto px-4 lg:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
-              Un sistema inteligente que hace el trabajo pesado por vos
+              Tu sistema que hace el trabajo pesado por vos
             </h2>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
               Desde que llega el primer CV hasta que tenés a los mejores listos para entrevistar, vos solo decidís a quién contratar.
@@ -274,6 +274,30 @@ export default function WorkNowLanding() {
                 Tu navegador no soporta video HTML5.
               </video>
             </div>
+
+            {/* Paso 5 */}
+            <div className="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-12 mt-16">
+              {/* Texto a la derecha */}
+              <div className="lg:w-[55%] text-left">
+                <h3 className="text-2xl font-bold text-white mb-2">5. Gestión de personal</h3>
+                <p className="text-lg text-gray-200">
+                 Organizá la documentación, administrá los pagos y notificas al instante
+                </p>
+              </div>
+
+              {/* Video a la derecha */}
+              <video
+                src="/pantalla-solucion5.mp4"
+                autoPlay
+                muted
+                playsInline
+                loop
+                className="rounded-xl lg:w-[45%] w-full shadow-lg"
+              >
+                Tu navegador no soporta video HTML5.
+              </video>
+            </div>
+          
           </div>
 
           <div className="text-center mt-12">
