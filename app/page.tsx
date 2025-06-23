@@ -16,7 +16,8 @@ export default function WorkNowLanding() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-gray-900">
-           <span className="text-blue-600">Work</span><span className="text-[#FF6B00]">Now</span>
+          <span className="text-[#1C0B35]">Work</span><span className="text-[#1C0B35]">Now</span>
+
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
@@ -37,9 +38,9 @@ export default function WorkNowLanding() {
             </Link>
           </nav>
 
-          <Button
+         <Button
   asChild
-  className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-6 shadow-lg"
+  className="bg-[#1C0B35] hover:bg-[#A463F2] text-white rounded-xl px-6 shadow-lg"
 >
   <a
     href="https://tally.so/r/nPW5d1"
@@ -58,24 +59,25 @@ export default function WorkNowLanding() {
         <div className="container mx-auto px-4 lg:px-6">
           <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-8">
             <div className="space-y-8 text-center items-center flex flex-col">
-              <p className="text-grey-00 font-medium text-lg">
+              <p className="text-[#1C0B35]font-medium text-lg">
                 ¿Contratar en gastronomía se volvió un dolor de cabeza?
               </p>
 
-              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                <span className="text-blue-600">Encontrá al candidato ideal en</span>
-                <span className="mx-2 text-orange-500 line-through">semanas</span>
-                <span className="text-blue-600">minutos</span>
-              </h1>
+             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+  <span className="text-[#1C0B35]">Encontrá al candidato ideal en</span>
+  <span className="mx-2 text-[#A463F2] line-through">semanas</span>
+  <span className="text-[#1C0B35]">minutos</span>
+</h1>
 
-              <p className="text-xl text-gray-600 leading-relaxed">
+
+              <p className="text-xl text-[#1C0B35]  leading-relaxed">
                 Dejá de perder tiempo con CVs que no sirven y entrevistas que no llevan a nada. Te conectamos
                 directamente con candidatos listos para trabajar.
               </p>
               <Button
   size="lg"
   asChild
-  className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
+  className="bg-[#1C0B35] hover:bg-[#A463F2] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
 >
   <a
     href="https://tally.so/r/nPW5d1"
@@ -103,28 +105,33 @@ export default function WorkNowLanding() {
       </section>
 
       {/* Problems Section */}
-      <section className="py-16 lg:py-24 bg-gray-50">
-        <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-              No es que falte gente, es que cada contratación te quita tiempo y energía.
-            </h2>
+      
+        <section className="py-16 lg:py-24 bg-white">
+  <div className="container mx-auto px-4 lg:px-6">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl lg:text-5xl font-bold text-[#1C0B35] mb-6">
+        No es que falte gente, es que cada contratación te quita tiempo y energía.
+      </h2>
+
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Seguramente, a vos también te pasó que...
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="p-6 border-0 shadow-lg">
-              <CardContent className="flex items-start space-x-4 p-0">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <FileText className="w-6 h-6 text-blue-600" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Recibís 50 CVs y el 90% no cumple con los requisitos</h3>
-                </div>
-              </CardContent>
-            </Card>
+  <Card className="p-6 border-0 shadow-lg">
+    <CardContent className="flex items-start space-x-4 p-0">
+      <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+        <FileText className="w-6 h-6 text-blue-600" />
+      </div>
+      <div>
+        <h3 className="text-xl font-bold text-[#1C0B35] mb-2">
+          Recibís 50 CVs y el 90% no cumple con los requisitos
+        </h3>
+      </div>
+    </CardContent>
+  </Card>
+
 
            <Card className="p-6 border-0 shadow-lg">
   <CardContent className="flex items-start space-x-4 p-0">
@@ -132,7 +139,7 @@ export default function WorkNowLanding() {
       <Clock className="w-6 h-6 text-yellow-600" />
     </div>
     <div>
-      <h3 className="text-xl font-bold text-gray-900 mb-2">
+       <h3 className="text-xl font-bold text-[#1C0B35] mb-2">
         Coordinás 5 entrevistas…<br />
         y aparece 1 solo
       </h3>
@@ -158,7 +165,7 @@ export default function WorkNowLanding() {
                   <Frown className="w-6 h-6 text-red-600" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Terminás contratando al menos malo</h3>
+                     <h3 className="text-xl font-bold text-[#1C0B35] mb-2"> Terminás contratando al menos malo</h3>
                 </div>
               </CardContent>
             </Card>
@@ -174,156 +181,143 @@ export default function WorkNowLanding() {
       </section>
 
       {/* How It Works */}
-      <section id="how-it-works" className="py-16 lg:py-24 bg-[#4A5568]">
-        <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
-              Tu sistema que hace el trabajo pesado por vos
-            </h2>
-            <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-              Desde que llega el primer CV hasta que tenés a los mejores listos para entrevistar, vos solo decidís a quién contratar.
-            </p>
-          </div>
+     <section id="how-it-works" className="py-16 lg:py-24 bg-[#1C0B35] relative overflow-hidden">
+  <div className="absolute inset-0 bg-white opacity-5 pointer-events-none"></div>
+  
+  <div className="container mx-auto px-4 lg:px-6 relative z-10">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
+        Tu sistema que hace el trabajo pesado por vos
+      </h2>
+      <p className="text-xl text-white max-w-3xl mx-auto">
+        Desde que llega el primer CV hasta que tenés a los mejores listos para entrevistar, vos solo decidís a quién contratar.
+      </p>
+    </div>
 
-          <div className="space-y-16">
-            {/* Paso 1 */}
-            <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-4">
-              <div className="lg:w-[55%]">
-                <h3 className="text-2xl font-bold text-white mb-2">1. Conectá tu correo</h3>
-                <p className="text-lg text-gray-200">Cargá lo que necesitás y olvidate de los pasos manuales.</p>
-              </div>
-              <video
-                src="/pantalla-solucion1.mp4"
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="rounded-xl lg:w-[45%] w-full shadow-lg"
-              >
-                Tu navegador no soporta video HTML5.
-              </video>
-            </div>
-
-            {/* Paso 2 */}
-            <div className="flex flex-col lg:flex-row-reverse  items-center gap-4 lg:gap-12 mt-16">
-
-              
-              {/* Texto a la derecha */}
-              <div className="lg:w-[55%] text-left">
-                <h3 className="text-2xl font-bold text-white mb-2">2. Candidatos filtrados</h3>
-                <p className="text-lg text-gray-200">
-                  Solo recibís quienes cumplen con tu búsqueda, listos para contactar.
-                </p>
-              </div>
-                 {/* Video a la izquierda en pantallas grandes */}
-              <video
-                src="/pantalla-solucion2.mp4"
-                autoPlay
-                muted
-                playsInline
-                loop
-                className="rounded-xl lg:w-[45%] w-full shadow-lg"
-              >
-                Tu navegador no soporta video HTML5.
-              </video>
-
-            </div>
-
-            {/* Paso 3 */}
-            <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
-              {/* Texto a la izquierda */}
-              <div className="lg:w-[55%] text-left">
-                <h3 className="text-2xl font-bold text-white mb-2">3. Validaciones listas para contactar</h3>
-                <p className="text-lg text-gray-200">
-                  Se verifican disponibilidad, referencias, ubicaciones y mucho mas. Solo te mostramos quienes realmente están listos para trabajar.
-                </p>
-              </div>
-
-              {/* Video a la derecha */}
-              <video
-                src="/pantalla-solucion3.mp4"
-                autoPlay
-                muted
-                playsInline
-                loop
-                className="rounded-xl lg:w-[45%] w-full shadow-lg"
-              >
-                Tu navegador no soporta video HTML5.
-              </video>
-            </div>
-
-            {/* Paso 4 */}
-            <div className="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-12 mt-16">
-              {/* Texto a la derecha */}
-              <div className="lg:w-[55%] text-left">
-                <h3 className="text-2xl font-bold text-white mb-2">4. Seguimiento automatizado</h3>
-                <p className="text-lg text-gray-200">
-                  El sistema notifica, agenda y automatiza todo tu proceso sin que tengas que intervenir.
-                </p>
-              </div>
-
-              {/* Video a la izquierda */}
-              <video
-                src="/pantalla-solucion4.mp4"
-                autoPlay
-                muted
-                playsInline
-                loop
-                className="rounded-xl lg:w-[45%] w-full shadow-lg"
-              >
-                Tu navegador no soporta video HTML5.
-              </video>
-            </div>
-
-            {/* Paso 5 */}
-            <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
-              {/* Texto a la derecha */}
-              <div className="lg:w-[55%] text-left">
-                <h3 className="text-2xl font-bold text-white mb-2">5. Gestión de personal</h3>
-                <p className="text-lg text-gray-200">
-                 Organizá la documentación, administrá los pagos y notificas al instante
-                </p>
-              </div>
-
-              {/* Video a la derecha */}
-              <video
-                src="/pantalla-solucion5.mp4"
-                autoPlay
-                muted
-                playsInline
-                loop
-                className="rounded-xl lg:w-[45%] w-full shadow-lg"
-              >
-                Tu navegador no soporta video HTML5.
-              </video>
-            </div>
-          
-          </div>
-
-          <div className="text-center mt-12">
-            <Button
-  size="lg"
-  asChild
-  className="bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
->
-  <a
-    href="https://tally.so/r/nPW5d1"
-    target="_blank"
-    rel="noopener noreferrer"
+    <div className="space-y-16">
+      {/* Paso 1 */}
+      <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-4">
+  <div className="lg:w-[55%] bg-white/5 rounded-xl p-6">
+    <h3 className="text-2xl font-bold text-white mb-2">1. Conectá tu correo</h3>
+    <p className="text-lg text-white">
+      Cargá lo que necesitás y olvidate de los pasos manuales.
+    </p>
+  </div>
+  <video
+    src="/pantalla-solucion1.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="rounded-xl lg:w-[45%] w-full shadow-lg"
   >
-    Empezar ahora
-  </a>
-</Button>
-          </div>
-        </div>
-      </section>
+    Tu navegador no soporta video HTML5.
+  </video>
+</div>
+
+      {/* Paso 2 */}
+    <div className="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-12 mt-16">
+  <div className="lg:w-[55%] text-left bg-white/5 rounded-xl p-6">
+    <h3 className="text-2xl font-bold text-white mb-2">2. Candidatos filtrados</h3>
+    <p className="text-lg text-white">
+      Solo recibís quienes cumplen con tu búsqueda, listos para contactar.
+    </p>
+  </div>
+  <video
+    src="/pantalla-solucion2.mp4"
+    autoPlay
+    muted
+    playsInline
+    loop
+    className="rounded-xl lg:w-[45%] w-full shadow-lg"
+  >
+    Tu navegador no soporta video HTML5.
+  </video>
+</div>
+
+      {/* Paso 3 */}
+    <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
+  <div className="lg:w-[55%] text-left bg-white/5 rounded-xl p-6">
+    <h3 className="text-2xl font-bold text-white mb-2">3. Validaciones listas para contactar</h3>
+    <p className="text-lg text-white">
+      Se verifican disponibilidad, referencias, ubicaciones y mucho más. Solo te mostramos quienes realmente están listos para trabajar.
+    </p>
+  </div>
+  <video
+    src="/pantalla-solucion3.mp4"
+    autoPlay
+    muted
+    playsInline
+    loop
+    className="rounded-xl lg:w-[45%] w-full shadow-lg"
+  >
+    Tu navegador no soporta video HTML5.
+  </video>
+</div>
+
+
+      {/* Paso 4 */}
+    <div className="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-12 mt-16">
+  <div className="lg:w-[55%] text-left bg-white/5 rounded-xl p-6">
+    <h3 className="text-2xl font-bold text-white mb-2">4. Seguimiento automatizado</h3>
+    <p className="text-lg text-white">
+      El sistema notifica, agenda y automatiza todo tu proceso sin que tengas que intervenir.
+    </p>
+  </div>
+  <video
+    src="/pantalla-solucion4.mp4"
+    autoPlay
+    muted
+    playsInline
+    loop
+    className="rounded-xl lg:w-[45%] w-full shadow-lg"
+  >
+    Tu navegador no soporta video HTML5.
+  </video>
+</div>
+
+
+      {/* Paso 5 */}
+    <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
+  <div className="lg:w-[55%] text-left bg-white/5 rounded-xl p-6">
+    <h3 className="text-2xl font-bold text-white mb-2">5. Gestión de personal</h3>
+    <p className="text-lg text-white">
+      Organizá la documentación, administrá los pagos y notificás al instante.
+    </p>
+  </div>
+  <video
+    src="/pantalla-solucion5.mp4"
+    autoPlay
+    muted
+    playsInline
+    loop
+    className="rounded-xl lg:w-[45%] w-full shadow-lg"
+  >
+    Tu navegador no soporta video HTML5.
+  </video>
+</div>
+</div>
+
+    <div className="text-center mt-12">
+      <Button
+        size="lg"
+        asChild
+        className="bg-[#A463F2] hover:bg-[#8D3DE5] text-white rounded-xl px-8 py-4 text-lg shadow-lg"
+      >
+        <a href="https://tally.so/r/nPW5d1" target="_blank" rel="noopener noreferrer">
+          Empezar ahora
+        </a>
+      </Button>
+    </div>
+  </div>
+</section>
 
       {/* Pricing */}
       <section id="pricing" className="py-16 lg:py-24">
         <div className="container mx-auto px-4 lg:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">Ahorrá más tiempo del que te cuesta</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl lg:text-5xl font-bold text-[#1c0b35] mb-6">Ahorrá más tiempo del que te cuesta</h2>
+            <p className="text-xl text-[#1C0B35] max-w-3xl mx-auto">
               Elegí el plan que mejor se adapte a tus necesidades de contratación
             </p>
           </div>
@@ -331,11 +325,11 @@ export default function WorkNowLanding() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="p-8 border-2 border-gray-200 shadow-lg">
               <CardHeader className="p-0 mb-6">
-                <CardTitle className="text-2xl font-bold text-gray-900">Plan Mensual</CardTitle>
+                <CardTitle className="text-2xl font-bold text-[#1c0b35]">Plan Mensual</CardTitle>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-gray-900">$100.000</span>
-                  <span className="text-gray-600 ml-2">ARS/mes</span>
-                <p className="text-sm text-blue-600 mt-2 font-medium">Precio especial para los primeros 10 usuarios</p>
+                  <span className="text-4xl font-bold text-[#1c0b35]">$100.000</span>
+                  <span className="text-[#1c0b35] ml-2">ARS/mes</span>
+                <p className="text-sm text-[#A463F2] mt-2 font-medium">Precio especial para los primeros 10 usuarios</p>
                 </div>
                 
 
@@ -363,9 +357,9 @@ export default function WorkNowLanding() {
                     <span className="text-gray-700">Soporte personalizado</span>
                   </li>
                 </ul>
-              <Button
+              <Button 
   asChild
-  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl py-3 shadow-md"
+  className="w-full bg-[#1C0B35] hover:bg-[#A463F2] text-white font-semibold rounded-xl py-3 shadow-md"
 >
   <a
     href="https://tally.so/r/nPW5d1"
@@ -378,10 +372,10 @@ export default function WorkNowLanding() {
               </CardContent>
             </Card>
 
-            <Card className="p-8 border-2 border-[#FF6B00] shadow-xl relative">
-              <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#FF6B00] text-white px-4 py-1">
-                Más popular
-              </Badge>
+            <Card className="p-8 border-2 border-[#A463F2]  shadow-xl relative">
+          <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#A463F2] text-white px-4 py-1">
+  Más popular
+</Badge>
               <CardHeader className="p-0 mb-6">
                 <CardTitle className="text-2xl font-bold text-gray-900">Plan Anual</CardTitle>
                 <div className="mt-4">
@@ -415,7 +409,7 @@ export default function WorkNowLanding() {
                 </ul>
                <Button
   asChild
-  className="w-full bg-[#FF6B00] hover:bg-[#E55A00] text-white rounded-xl py-3"
+  className="w-full bg-[#1C0B35] hover:bg-[#A463F2] text-white font-semibold rounded-xl py-3 shadow-md"
 >
   <a
     href="https://tally.so/r/nPW5d1"
@@ -435,8 +429,8 @@ export default function WorkNowLanding() {
       <section id="faq" className="py-16 lg:py-24 bg-gray-50">
         <div className="container mx-auto px-4 lg:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">Preguntas frecuentes</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Todo lo que necesitás saber sobre Work Now</p>
+            <h2 className="text-3xl lg:text-5xl font-bold text-[#1C0B35] mb-6">Preguntas frecuentes</h2>
+            <p className="text-xl text-[#1C0B35] max-w-3xl mx-auto">Todo lo que necesitás saber sobre Work Now</p>
           </div>
 
           <div className="max-w-3xl mx-auto">
@@ -520,16 +514,20 @@ Si estás activo en una búsqueda, tenés prioridad y soporte dedicado para reso
       </section>
 
       {/* Footer CTA */}
-      <section className="py-16 lg:py-24 bg-[#FF6B00]">
-        <div className="container mx-auto px-4 lg:px-6 text-center">
-          <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">Sabemos lo difícil que es encontrar buen personal.</h2>
-          <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-          Por eso creamos Work Now: para que no pierdas más tiempo y puedas enfocarte en tu negocio.
-          </p>
-          <Button
+      <section className="py-16 lg:py-24 bg-[#A463F2]">
+  <div className="container mx-auto px-4 lg:px-6 text-center">
+    <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
+      Sabemos lo difícil que es encontrar buen personal.
+    </h2>
+    <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
+      Por eso creamos Work Now: para que no pierdas más tiempo y puedas enfocarte en tu negocio.
+    </p>
+
+
+          <Button 
   size="lg"
   asChild
-  className="bg-white text-[#FF6B00] hover:bg-gray-100 rounded-xl px-8 py-4 text-lg font-semibold shadow-lg"
+  className="bg-[#1C0B35] hover:bg-[#A463F2] text-white rounded-xl px-8 py-4 text-lg font-semibold shadow-lg"
 >
   <a
     href="https://tally.so/r/nPW5d1"
@@ -540,15 +538,17 @@ Si estás activo en una búsqueda, tenés prioridad y soporte dedicado para reso
   </a>
 </Button>
 
+
         </div>
       </section>
 
-     <footer className="py-12 bg-gray-900">
+    <footer className="py-12 bg-[#1C0B35]">
   <div className="container mx-auto px-4 lg:px-6">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
       <div>
         <div className="text-2xl font-bold text-white mb-4">
-          Work<span className="text-[#FF6B00]">Now</span>
+          <span className="text-[#A463F2]">Work</span>
+          <span className="text-[#A463F2]">Now</span>
         </div>
         <p className="text-gray-400">Simplificando la contratación para negocios de alta rotación.</p>
       </div>
