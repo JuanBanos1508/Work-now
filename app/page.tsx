@@ -89,7 +89,7 @@ export default function WorkNowLanding() {
 </Button>
               
   <video
-  src="/hero-preview.mp4"
+  src="/hero-preview1.mp4"
   autoPlay
   muted
   loop
