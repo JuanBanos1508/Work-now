@@ -126,7 +126,7 @@ export default function WorkNowLanding() {
       </div>
       <div>
         <h3 className="text-xl font-bold text-[#1C0B35] mb-2">
-          Recibís 50 CVs y el 90% no cumple con los requisitos
+          Recibís 100 CVs y el 90% no cumple con los requisitos
         </h3>
       </div>
     </CardContent>
@@ -204,7 +204,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion1.mp4"
+    src="/pantalla-solucion10.mp4"
     autoPlay
     muted
     loop
@@ -224,7 +224,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion2.mp4"
+    src="/pantalla-solucion11.mp4"
     autoPlay
     muted
     playsInline
