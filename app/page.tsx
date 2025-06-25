@@ -244,7 +244,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion3.mp4"
+    src="/pantalla-solucion12.mp4"
     autoPlay
     muted
     playsInline
@@ -265,7 +265,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion4.mp4"
+    src="/pantalla-solucion13.mp4"
     autoPlay
     muted
     playsInline
@@ -286,7 +286,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion5.mp4"
+    src="/pantalla-solucion14.mp4"
     autoPlay
     muted
     playsInline
