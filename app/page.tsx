@@ -375,9 +375,16 @@ export default function WorkNowLanding() {
             </CardTitle>
           </CardHeader>
           <CardContent className="p-0">
-            <div className="mb-2">
-              <span className="text-5xl font-bold text-[#1c0b35]">$90.000</span>
-            </div>
+
+
+         <div className="mb-2">
+  <div className="flex items-baseline gap-2">
+    <span className="text-5xl font-bold text-[#1c0b35]">$140.000</span>
+    <span className="text-xs uppercase tracking-wide text-[#1c0b35]">ARS/mes</span>
+  </div>
+</div>
+
+
             <p className="text-sm font-semibold text-[#A463F2] mb-6">
               Precio especial para los primeros 10 usuarios
             </p>
