@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Clock, Eye, FileText, Frown, Mail, Filter, UserCheck, BarChart3 } from "lucide-react"
 import Link from "next/link"
 import TimeCalculator from "@/components/time-calculator"
-
+import { ShieldCheck } from "lucide-react";
 
 
 export default function WorkNowLanding() {
@@ -312,68 +312,94 @@ export default function WorkNowLanding() {
   </div>
 </section>
 
-      {/* Pricing */}
-      <section id="pricing" className="py-16 lg:py-24">
-        <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-[#1c0b35] mb-6">Ahorrá más tiempo del que te cuesta</h2>
-          </div>
-          
-<div className="max-w-md mx-auto">
-         <Card className="p-6 border-2 border-[#A463F2] shadow-xl rounded-2xl">
-              <CardHeader className="p-0 mb-6">
-                <CardTitle className="text-2xl font-bold text-[#1c0b35]">Plan Mensual</CardTitle>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold text-[#1c0b35]">$140.000</span>
-                  <span className="text-[#1c0b35] ml-2">ARS/mes</span>
-                <p className="text-sm text-[#A463F2] mt-2 font-medium">Precio especial para los primeros 10 usuarios</p>
-                </div>
-                
+     {/* Pricing */}
+<section id="pricing" className="py-16 lg:py-24">
+  <div className="container mx-auto px-4 lg:px-6">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl lg:text-5xl font-bold text-[#1c0b35] mb-6">
+        Ahorrá más tiempo del que te cuesta
+      </h2>
+    </div>
 
-              </CardHeader>
-              <CardContent className="p-0">
-                <ul className="space-y-4 mb-8">
-                  <li className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">Sé un 60% más eficiente</span>
-                  </li>
-                  <li className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">No más CVs irrelevantes</span>
-                  </li>
-                  <li className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500" />
-                   <span className="text-gray-700">Candidatos listos en {"<"}48hs</span>
-                  </li>
-                  <li className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">Filtrado personalizado por vos</span>
-                  </li>
-                  <li className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">Entrevistas coordinadas automáticamente
-</span>
-                  </li>
-                </ul>
-              <Button 
-  asChild
-  className="w-full bg-[#1C0B35] hover:bg-[#A463F2] text-white font-semibold rounded-xl py-3 shadow-md"
->
-  <a
-    href="https://tally.so/r/nPW5d1"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Empezar ahora
-  </a>
-</Button>
-              </CardContent>
-            </Card>
+    {/* CONTENEDOR GRIS */}
+    <div className="max-w-5xl mx-auto bg-gray-50 border border-gray-200 rounded-2xl p-6 md:p-8">
+    <div className="grid lg:grid-cols-2 gap-8 lg:items-center">
+        {/* IZQUIERDA: Items */}
+        <div>
+          <h3 className="text-2xl font-bold text-[#1c0b35] mb-6">
+            Accedé directamente a candidatos calificados
+          </h3>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-3">
+              <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
+              <span className="text-gray-700">Sé un 60% más eficiente</span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
+              <span className="text-gray-700">No más CVs irrelevantes</span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
+              <span className="text-gray-700">Candidatos listos en {"<"}48hs</span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
+              <span className="text-gray-700">Filtrado personalizado por vos</span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
+              <span className="text-gray-700">Entrevistas coordinadas automáticamente</span>
+            </li>
+          </ul>
+          {/* Rectángulo de Garantía (borde verde) */}
+<Card className="mt-6 p-6 border-2 border-green-500 rounded-2xl shadow-md bg-white">
+  <div className="flex items-center gap-3">
+    <ShieldCheck className="w-5 h-5 text-green-600" />
+    <span className="text-lg font-semibold text-[#1c0b35]">Garantía 100%</span>
+  </div>
+</Card>
 
-              
-          </div>
+{/* Texto por fuera del rectángulo */}
+<p className="text-xs text-gray-500 mt-2">
+  Devolución total si no contratás a nadie del shortlist enviado.
+</p>
         </div>
-      </section>
+        
+
+        {/* DERECHA: Tarjeta violeta (más grande y más abajo) */}
+  <Card className="p-10 border-2 border-[#A463F2] shadow-2xl rounded-2xl
+               max-w-md w-full lg:mx-auto lg:self-center flex flex-col">
+          <CardHeader className="p-0 mb-6">
+            <CardTitle className="text-2xl font-bold text-[#1c0b35]">
+              Plan Mensual
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="p-0">
+            <div className="mb-2">
+              <span className="text-5xl font-bold text-[#1c0b35]">$90.000</span>
+            </div>
+            <p className="text-sm font-semibold text-[#A463F2] mb-6">
+              Precio especial para los primeros 10 usuarios
+            </p>
+
+            <Button
+              asChild
+              className="w-full bg-[#1C0B35] hover:bg-[#A463F2] text-white font-semibold rounded-xl py-3 shadow-md"
+            >
+              <a href="https://tally.so/r/nPW5d1" target="_blank" rel="noopener noreferrer">
+                Conocer más
+              </a>
+            </Button>
+
+         
+          </CardContent>
+          
+        </Card>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* FAQ */}
       <section id="faq" className="py-16 lg:py-24 bg-gray-50">
