@@ -303,7 +303,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion-new-4.mp4"
+    src="/pantalla-solucion-new-5.mp4"
     autoPlay
     muted
     playsInline
