@@ -1,4 +1,5 @@
 "use client";
+import Script from "next/script";
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
@@ -12,6 +13,22 @@ import { ShieldCheck } from "lucide-react";
 export default function WorkNowLanding() {
   return (
     <div className="min-h-screen bg-white">
++     <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-L177J5W5R"
+  strategy="afterInteractive"
+/>
++      <Script id="ga4-init" strategy="afterInteractive">
++        {`
++          window.dataLayer = window.dataLayer || [];
++          function gtag(){dataLayer.push(arguments);}
++          gtag('js', new Date());
++          gtag('config', 'G-L177J5W5R', {
++            debug_mode: location.hostname === 'localhost'
++          });
++          console.log('[GA] gtag en page.tsx cargado');
++        `}
++      </Script>
+
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center justify-between">
@@ -224,7 +241,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion11.mp4"
+    src="/pantalla-solucion-new-2.mp4"
     autoPlay
     muted
     playsInline
@@ -244,7 +261,7 @@ export default function WorkNowLanding() {
     </p>
   </div>
   <video
-    src="/pantalla-solucion12.mp4"
+    src="/pantalla-solucion-new-3.mp4"
     autoPlay
     muted
     playsInline
@@ -280,13 +297,13 @@ export default function WorkNowLanding() {
       {/* Paso 5 */}
     <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-12 mt-16">
   <div className="lg:w-[55%] text-left bg-white/5 rounded-xl p-6">
-    <h3 className="text-2xl font-bold text-white mb-2">5. Gestión de personal</h3>
+    <h3 className="text-2xl font-bold text-white mb-2">5. Panel de Entrevista</h3>
     <p className="text-lg text-white">
-      Organizá la documentación, administrá los pagos y notificás al instante.
+      Organizá la documentación y datos del candidato. Toma nota durante la entrevista.
     </p>
   </div>
   <video
-    src="/pantalla-solucion14.mp4"
+    src="/pantalla-solucion-new-4.mp4"
     autoPlay
     muted
     playsInline

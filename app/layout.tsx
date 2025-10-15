@@ -1,4 +1,4 @@
-import Script from "next/script";
+
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -15,19 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es-AR" className={inter.className}>
       <body className="bg-white">
-        {/* Google Analytics (GA4) - UNA SOLA VEZ */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-L177J5W5R"
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-L177J5W5R');
-          `}
-        </Script>
+
 
         {children}
 
